@@ -9,7 +9,7 @@ marquee{
     position: relative;
     z-index: 2;
     color: white;
-    background-color: #151515;
+    
     font-size: 17px;
     font-weight: 600;
 }
