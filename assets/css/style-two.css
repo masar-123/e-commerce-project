@@ -1,0 +1,150 @@
+:root {
+  --section-padding: 5rem 0;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.5em 1.5em;
+  border-radius: 1.25rem;
+}
+
+/* Head Section */
+.head-section {
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.head-section .description-bg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Section Titles */
+.wrapper .section-title h1 {
+  font-size: 5vw;
+}
+
+/* About Section */
+.about-content .section-description .btn-edit {
+  padding: 0.5em 1em;
+  border-radius: 1.25rem;
+}
+
+.about-content .section-description ul {
+  min-height: 7.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.about-content .section-description ul li a {
+  padding-left: 0.625rem;
+}
+
+.about-content .section-description .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 100%;
+}
+
+.about-content .section-description .buttons .play {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+/* Responsive Grid */
+.about .about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Counter */
+.counter {
+  margin: 3.125rem 0;
+  border-radius: 1.25rem;
+}
+
+.counter-item {
+  padding: 2rem;
+}
+
+/* Services */
+.services .first-row,
+.services .seconed-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.services .card {
+  flex: 1 1 300px;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+}
+
+.services .card .text {
+  max-width: 100%;
+}
+
+.services .card ul {
+  min-height: 7.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.services .card ul li a {
+  padding-left: 0.625rem;
+}
+
+.services .card button.learn-more {
+  border-radius: 0;
+  padding: 0;
+}
+
+.services .custom-solution {
+  border-radius: 0.75rem;
+  margin: 3.125rem 0;
+  padding: 2.5rem 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Containers */
+.container {
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.head-section .description {
+  max-width: 90%;
+  width: 100%;
+}
+
+.about .about-content .image-holder img {
+  width: 100%;
+  height: auto;
+}
+
